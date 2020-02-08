@@ -1,0 +1,29 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  background-image: url(assets/images/background.JPG);
+}
+
+.header-container {
+  background-color: red;
+}
+
+#info-box {
+  border: solid black 1px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  background-color: #689999;
+  padding: 5px;
+}
