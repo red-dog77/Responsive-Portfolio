@@ -1,29 +1,53 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+#main-header {
+  background-color: #408888;
+  text-align: center;
+}
+header {
+  font-size: 36px;
+  padding: 20px;
+}
+
+#navigation {
+  margin: auto;
+  padding: auto;
 }
 
 body {
-  background-image: url(assets/images/background.JPG);
+  background-image: url(assets/images/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 2048px 1024px;
 }
 
-.header-container {
-  background-color: red;
+#portfolio {
+  margin: 20px 300px 20px auto;
 }
 
-#info-box {
-  border: solid black 1px;
+#sub-header {
+  color: #408888;
+  padding: 10px 20px 0px 10px;
+  font-size: 30px;
 }
 
-img {
-  width: 250px;
-  height: 250px;
+.card {
+  margin: auto;
+  float: left;
+  margin: 5px;
+}
+
+.row {
+  clear: both;
+  overflow: auto;
+  background-color: #eee;
 }
 
 footer {
-  margin-top: 20px;
-}
-
-.navbar-brand {
-  background-color: #689999;
-  padding: 5px;
+  padding: 20px;
+  text-align: center;
+  font-size: 26px;
+  color: #408888;
 }
