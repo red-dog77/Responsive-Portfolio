@@ -8,7 +8,7 @@
 }
 header {
   font-size: 36px;
-  padding: 20px;
+  padding: 10px;
 }
 
 #navigation {
@@ -23,20 +23,26 @@ body {
   background-size: 2048px 1024px;
 }
 
-#portfolio {
+#about-me {
   margin: 20px 300px 20px auto;
+  padding: 20px;
+}
+
+#h2-title {
+  color: #408888;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin: auto 10px;
 }
 
 #sub-header {
   color: #408888;
   padding: 10px 20px 0px 10px;
   font-size: 30px;
-}
-
-.card {
-  margin: auto;
-  float: left;
-  margin: 5px;
 }
 
 .row {
@@ -50,4 +56,11 @@ footer {
   text-align: center;
   font-size: 26px;
   color: #408888;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
 }

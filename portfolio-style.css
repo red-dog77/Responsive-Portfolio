@@ -1,1 +1,60 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+#main-header {
+  background-color: #408888;
+  text-align: center;
+}
+header {
+  font-size: 36px;
+  padding: 10px;
+}
 
+#navigation {
+  margin: auto;
+  padding: auto;
+}
+
+body {
+  background-image: url(assets/images/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 2048px 1024px;
+}
+
+#portfolio {
+  margin: 20px 50px 100px auto;
+}
+
+#sub-header {
+  color: #408888;
+  padding: 10px 20px 0px 10px;
+  font-size: 30px;
+}
+
+.card {
+  margin: auto;
+  float: left;
+  margin: 5px;
+}
+
+.row {
+  clear: both;
+  overflow: auto;
+  background-color: #eee;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 26px;
+  color: #408888;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+}

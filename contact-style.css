@@ -1,0 +1,62 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+#main-header {
+  background-color: #408888;
+  text-align: center;
+}
+header {
+  font-size: 36px;
+  padding: 10px;
+}
+
+#header {
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #408888;
+}
+
+#navigation {
+  margin: auto;
+  padding: auto;
+}
+
+body {
+  background-image: url(assets/images/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 2048px 1024px;
+}
+
+#sub-header {
+  color: #408888;
+  padding: 10px 20px 0px 10px;
+  font-size: 30px;
+}
+
+.row {
+  overflow: auto;
+  background-color: #eee;
+}
+
+#contact {
+  width: 75%;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 26px;
+  color: #408888;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
