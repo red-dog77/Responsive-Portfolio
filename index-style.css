@@ -1,5 +1,5 @@
 * {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Special Elite", "cursive", "serif";
   box-sizing: border-box;
 }
 #main-header {
@@ -24,7 +24,7 @@ body {
 }
 
 #about-me {
-  margin: 20px 100px 20px auto;
+  margin: 20px 100px 100px auto;
   padding: 20px;
 }
 
