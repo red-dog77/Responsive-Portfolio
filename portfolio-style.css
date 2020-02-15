@@ -45,16 +45,10 @@ body {
   background-color: #eee;
 }
 
-footer {
+.fixed-bottom {
   padding: 20px;
   text-align: center;
   font-size: 26px;
   color: #408888;
-}
-
-#footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  margin: auto;
+  background-color: #eee;
 }
