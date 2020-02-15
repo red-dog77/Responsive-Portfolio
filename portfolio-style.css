@@ -1,11 +1,13 @@
 * {
-  font-family: Georgia, "Times New Roman", Times, serif;
   box-sizing: border-box;
+  font-family: "Special Elite", "cursive", "serif";
 }
+
 #main-header {
   background-color: #408888;
   text-align: center;
 }
+
 header {
   font-size: 36px;
   padding: 10px;
