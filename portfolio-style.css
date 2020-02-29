@@ -18,11 +18,17 @@ header {
   padding: auto;
 }
 
-body {
-  background-image: url(assets/images/background.png);
+body,
+html {
+  height: 100%;
+}
+.bg {
+  background-image: url(assets/images/background.JPG);
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
-  background-size: 2048px 1024px;
 }
 
 #portfolio {

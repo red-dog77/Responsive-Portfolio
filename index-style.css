@@ -16,13 +16,19 @@ header {
   padding: auto;
 }
 
-body {
-  background-image: url(assets/images/background.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 2048px 1024px;
+body,
+html {
+  height: 100%;
 }
 
+.bg {
+  background-image: url(assets/images/background.JPG);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 #about-me {
   margin: 20px 100px 100px auto;
   padding: 20px;
